@@ -1,0 +1,2 @@
+[2022/12/07T16:39:49] [application] [WARNING] [logger.go:28,0] this is a log message  
+[2022/12/07T16:39:49] [application] [ERROR] [logger.go:29,0] this is a log message  

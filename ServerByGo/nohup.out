@@ -1,0 +1,68 @@
+Config: &{192.168.0.4 8020 192.168.0.4 3306 root helloworld ginServer} 
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /stc/*filepath            --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /stc/*filepath            --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] Loaded HTML Templates (2): 
+	- 
+	- index.html
+
+[GIN-debug] GET    /                         --> main.main.func2 (3 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on 192.168.0.4:8020
+[GIN] 2022/07/17 - 19:21:19 | 200 |     266.589µs |   223.72.64.190 | GET      "/"
+[GIN] 2022/07/17 - 19:21:19 | 304 |      80.114µs |   223.72.64.190 | GET      "/stc/css/app.e3bd0232.css"
+[GIN] 2022/07/17 - 19:21:19 | 304 |      77.976µs |   223.72.64.190 | GET      "/stc/css/chunk-vendors.fcf7f98d.css"
+[GIN] 2022/07/17 - 19:21:19 | 304 |      60.925µs |   223.72.64.190 | GET      "/stc/js/app.25096434.js"
+[GIN] 2022/07/17 - 19:21:19 | 304 |      28.581µs |   223.72.64.190 | GET      "/stc/js/chunk-vendors.d7d84eea.js"
+[GIN] 2022/07/17 - 19:21:19 | 304 |      40.607µs |   223.72.64.190 | GET      "/stc/css/about.ec805392.css"
+[GIN] 2022/07/17 - 19:21:19 | 304 |      45.868µs |   223.72.64.190 | GET      "/stc/css/account.6c545685.css"
+[GIN] 2022/07/17 - 19:21:19 | 304 |       37.74µs |   223.72.64.190 | GET      "/stc/css/data.3e7d3a4a.css"
+[GIN] 2022/07/17 - 19:21:19 | 304 |      36.334µs |   223.72.64.190 | GET      "/stc/css/detail.c83b69a9.css"
+[GIN] 2022/07/17 - 19:21:19 | 304 |      22.502µs |   223.72.64.190 | GET      "/stc/css/login.1970f331.css"
+[GIN] 2022/07/17 - 19:21:19 | 304 |      23.892µs |   223.72.64.190 | GET      "/stc/css/user.4d66ede1.css"
+[GIN] 2022/07/17 - 19:21:19 | 304 |      21.231µs |   223.72.64.190 | GET      "/stc/js/about.8e03ead0.js"
+[GIN] 2022/07/17 - 19:21:19 | 304 |      55.051µs |   223.72.64.190 | GET      "/stc/js/account.842f4e6e.js"
+[GIN] 2022/07/17 - 19:21:19 | 304 |      24.578µs |   223.72.64.190 | GET      "/stc/js/login.d83f8d71.js"
+[GIN] 2022/07/17 - 19:21:19 | 304 |      40.374µs |   223.72.64.190 | GET      "/stc/js/data.8b211504.js"
+[GIN] 2022/07/17 - 19:21:19 | 304 |      23.736µs |   223.72.64.190 | GET      "/stc/js/detail.8be86180.js"
+[GIN] 2022/07/17 - 19:21:19 | 304 |      24.994µs |   223.72.64.190 | GET      "/stc/js/user.ec8aaab8.js"
+[GIN] 2022/07/17 - 19:21:19 | 304 |      46.809µs |   223.72.64.190 | GET      "/stc/favicon.ico"
+[GIN] 2022/07/17 - 19:24:18 | 200 |      275.81µs |   223.72.64.190 | GET      "/"
+[GIN] 2022/07/17 - 19:24:19 | 200 |     6.52205ms |   223.72.64.190 | GET      "/stc/css/app.e3bd0232.css"
+[GIN] 2022/07/17 - 19:24:19 | 200 |       56.67µs |   223.72.64.190 | GET      "/stc/css/about.ec805392.css"
+[GIN] 2022/07/17 - 19:24:19 | 200 |      85.164µs |   223.72.64.190 | GET      "/stc/css/account.6c545685.css"
+[GIN] 2022/07/17 - 19:24:19 | 200 |      86.771µs |   223.72.64.190 | GET      "/stc/css/data.3e7d3a4a.css"
+[GIN] 2022/07/17 - 19:24:19 | 200 |   44.882323ms |   223.72.64.190 | GET      "/stc/js/app.25096434.js"
+[GIN] 2022/07/17 - 19:24:19 | 200 |      70.699µs |   223.72.64.190 | GET      "/stc/css/detail.c83b69a9.css"
+[GIN] 2022/07/17 - 19:24:19 | 200 |      31.987µs |   223.72.64.190 | GET      "/stc/css/user.4d66ede1.css"
+[GIN] 2022/07/17 - 19:24:19 | 200 |      39.369µs |   223.72.64.190 | GET      "/stc/css/login.1970f331.css"
+[GIN] 2022/07/17 - 19:24:19 | 200 |      82.498µs |   223.72.64.190 | GET      "/stc/js/about.8e03ead0.js"
+[GIN] 2022/07/17 - 19:24:19 | 200 |      48.059µs |   223.72.64.190 | GET      "/stc/js/account.842f4e6e.js"
+[GIN] 2022/07/17 - 19:24:19 | 200 |       79.77µs |   223.72.64.190 | GET      "/stc/js/data.8b211504.js"
+[GIN] 2022/07/17 - 19:24:19 | 200 |      80.613µs |   223.72.64.190 | GET      "/stc/js/detail.8be86180.js"
+[GIN] 2022/07/17 - 19:24:19 | 200 |     115.972µs |   223.72.64.190 | GET      "/stc/js/login.d83f8d71.js"
+[GIN] 2022/07/17 - 19:24:19 | 200 |       86.49µs |   223.72.64.190 | GET      "/stc/js/user.ec8aaab8.js"
+[GIN] 2022/07/17 - 19:24:19 | 200 |  173.721385ms |   223.72.64.190 | GET      "/stc/css/chunk-vendors.fcf7f98d.css"
+[GIN] 2022/07/17 - 19:24:19 | 200 |  553.338908ms |   223.72.64.190 | GET      "/stc/js/chunk-vendors.d7d84eea.js"
+[GIN] 2022/07/18 - 13:47:26 | 304 |      73.993µs |   114.254.0.229 | GET      "/stc/css/app.e3bd0232.css"
+[GIN] 2022/07/18 - 13:47:26 | 304 |       70.99µs |   114.254.0.229 | GET      "/stc/css/chunk-vendors.fcf7f98d.css"
+[GIN] 2022/07/18 - 13:47:26 | 304 |      49.953µs |   114.254.0.229 | GET      "/stc/js/chunk-vendors.d7d84eea.js"
+[GIN] 2022/07/18 - 13:47:26 | 304 |      60.207µs |   114.254.0.229 | GET      "/stc/js/app.25096434.js"
+[GIN] 2022/07/18 - 13:47:26 | 304 |      45.754µs |   114.254.0.229 | GET      "/stc/css/about.ec805392.css"
+[GIN] 2022/07/18 - 13:47:26 | 304 |      64.503µs |   114.254.0.229 | GET      "/stc/css/account.6c545685.css"
+[GIN] 2022/07/18 - 13:47:26 | 304 |      50.013µs |   114.254.0.229 | GET      "/stc/css/data.3e7d3a4a.css"
+[GIN] 2022/07/18 - 13:47:26 | 304 |      43.278µs |   114.254.0.229 | GET      "/stc/css/detail.c83b69a9.css"
+[GIN] 2022/07/18 - 13:47:26 | 304 |      40.605µs |   114.254.0.229 | GET      "/stc/css/login.1970f331.css"
+[GIN] 2022/07/18 - 13:47:26 | 304 |      39.091µs |   114.254.0.229 | GET      "/stc/css/user.4d66ede1.css"
+[GIN] 2022/07/18 - 13:47:26 | 304 |      32.174µs |   114.254.0.229 | GET      "/stc/js/about.8e03ead0.js"
+[GIN] 2022/07/18 - 13:47:26 | 304 |      33.097µs |   114.254.0.229 | GET      "/stc/js/account.842f4e6e.js"
+[GIN] 2022/07/18 - 13:47:26 | 304 |      39.603µs |   114.254.0.229 | GET      "/stc/js/data.8b211504.js"
+[GIN] 2022/07/18 - 13:47:26 | 304 |      22.022µs |   114.254.0.229 | GET      "/stc/js/login.d83f8d71.js"
+[GIN] 2022/07/18 - 13:47:26 | 304 |      22.492µs |   114.254.0.229 | GET      "/stc/js/detail.8be86180.js"
+[GIN] 2022/07/18 - 13:47:26 | 304 |      34.968µs |   114.254.0.229 | GET      "/stc/js/user.ec8aaab8.js"
